@@ -1,0 +1,78 @@
+.maindiv{
+    height: 100vh;
+    width: 100%;
+}
+
+.div1{
+/* border-radius: 0px 0px 50px 50px; */
+width: 100%;
+height: 40%;
+background-color: #d2cece;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.div2{
+
+width: 100%;
+height: 60%;
+background-color: white;
+display: flex;
+flex-direction: column;
+}
+
+img{
+    margin-top: 150px;
+    width: 350px;
+    border-radius: 50%;
+    border: 7px solid white;
+    /* animation: husam 2s infinite linear; */
+}
+
+.portfolio{
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+
+}
+
+
+.text{
+    margin: auto;
+    width: 30%;
+    margin-top: -250px;
+    font-size: 20px;
+    font-family: sans-serif; 
+    text-align: justify;
+}
+
+.link{
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.more{
+    text-align: center;
+}
+
+/* @keyframes husam{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+} */
